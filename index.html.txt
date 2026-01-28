@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benzo’s Essential | Natural Wellness</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: #2f6f4e;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #1f4d36;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .btn {
+      display: inline-block;
+      background: #2f6f4e;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+      border: none;
+      cursor: pointer;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Benzo’s Essential</h1>
+  <p>Natural Wellness • Self-Care • Essential Products</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#products">Products</a>
+  <a href="#booking">Booking</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Benzo’s Essential</h2>
+  <p>
+    Benzo’s Essential is a Dallas-based wellness brand focused on natural,
+    high-quality essential products designed to support balance, relaxation,
+    and everyday self-care.
+  </p>
+  <p>
+    Our mission is to provide clean, thoughtfully sourced essentials that help
+    our community feel their best—naturally.
+  </p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Essential Oils</h3>
+      <p>Premium oils crafted for relaxation, focus, and overall wellness.</p>
+    </div>
+    <div class="card">
+      <h3>Body & Skin Care</h3>
+      <p>Natural products designed to nourish and protect your skin.</p>
+    </div>
+    <div class="card">
+      <h3>Aromatherapy</h3>
+      <p>Blends and tools to enhance mood and promote calm spaces.</p>
+    </div>
+  </div>
+</section>
+
+<section id="booking">
+  <h2>Book an Appointment</h2>
+  <p>Request a consultation or service with Benzo’s Essential.</p>
+
+  <form action="mailto:Sean.berry1523@gmail.com" method="post" enctype="text/plain">
+    <label>Full Name</label>
+    <input type="text" name="Name" required>
+
+    <label>Email</label>
+    <input type="email" name="Email" required>
+
+    <label>Preferred Date</label>
+    <input type="date" name="Date">
+
+    <label>Message / Service Requested</label>
+    <textarea name="Message" rows="4"></textarea>
+
+    <button type="submit" class="btn">Submit Booking Request</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Business Address:</strong><br>
+    2100 Ross Ave, Suite 700<br>
+    Dallas, TX 75201
+  </p>
+  <p><strong>Email:</strong> Sean.berry1523@gmail.com</p>
+
+  <a href="mailto:Sean.berry1523@gmail.com" class="btn">Email Us</a>
+</section>
+
+<footer>
+  <p>&copy; 2026 Benzo’s Essential. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
